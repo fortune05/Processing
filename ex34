@@ -1,0 +1,51 @@
+int x, y, thesize, offset;
+size(200,200);
+background(255);
+
+x = 100; // x location
+y = 100; // y location
+thesize = 64; // size
+offset = thesize/4;
+// draw main car body
+rectMode(CENTER);
+stroke(0);
+fill(175);
+rect(x,y,thesize,thesize/2);
+// draw four wheels relative to center
+fill(0);
+rect(x - offset,y - offset,offset,offset/2);
+rect(x + offset,y - offset,offset,offset/2);
+rect(x - offset,y + offset,offset,offset/2);
+rect(x + offset,y + offset,offset,offset/2);
+
+x = 50; // x location
+y = 50; // y location
+thesize = 24; // size
+offset = thesize/4;
+// draw main car body
+rectMode(CENTER);
+stroke(0);
+fill(175);
+rect(x,y,thesize,thesize/2);
+// draw four wheels relative to center
+fill(0);
+rect(x - offset,y - offset,offset,offset/2);
+rect(x + offset,y - offset,offset,offset/2);
+rect(x - offset,y + offset,offset,offset/2);
+rect(x + offset,y+offset,offset,offset/2);
+
+x = 70; // x location
+y = 180; // y location
+thesize = 24; // size
+offset = thesize/4;
+// draw main car body
+rectMode(CENTER);
+stroke(0);
+fill(175);
+rect(x,y,thesize,thesize/2);
+// draw four wheels relative to center
+fill(0);
+rect(x - offset,y - offset,offset,offset/2);
+rect(x + offset,y - offset,offset,offset/2);
+rect(x - offset,y + offset,offset,offset/2);
+rect(x + offset,y+offset,offset,offset/2);
